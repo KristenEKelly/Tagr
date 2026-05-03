@@ -1,6 +1,6 @@
 services:
   tagr:
-    image: ghcr.io/suitux/tagr:latest
+    image: ghcr.io/kristenekelly/tagr:latest
     container_name: tagr
     restart: unless-stopped
     ports:

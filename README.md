@@ -123,7 +123,7 @@ Tagr is fully responsive and works on phones and tablets. The mobile UI adapts t
 ### 1. Clone the repository
 
 ```bash
-wget https://raw.githubusercontent.com/suitux/Tagr/main/docker-compose.yml
+wget https://raw.githubusercontent.com/KristenEKelly/Tagr/main/docker-compose.yml
 ```
 
 ### 2. Generate a secret key
@@ -139,7 +139,7 @@ Copy the output — you'll use it as `AUTH_SECRET` in the next step.
 ```yaml
 services:
   tagr:
-    image: ghcr.io/suitux/tagr:latest
+    image: ghcr.io/kristenekelly/tagr:latest
     container_name: tagr
     restart: unless-stopped
     ports:
@@ -189,7 +189,7 @@ Navigate to [http://localhost:3000](http://localhost:3000), log in with your cre
 Requirements: **Node.js 22+**.
 
 ```bash
-git clone https://github.com/suitux/Tagr.git
+git clone https://github.com/KristenEKelly/Tagr.git
 cd tagr
 pnpm install
 ```
